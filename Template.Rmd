@@ -1,0 +1,31 @@
+---
+title: "Capstone Template"
+author: ""
+date: "10/15/2020"
+output:
+  html_document:
+    fig_height: 6
+    fig_width: 10
+    highlight: kate
+    number_sections: yes
+    theme: paper
+    toc: yes
+    toc_float: true
+    toc_depth: 4
+---
+
+```{r setup, include=FALSE}
+require(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+#options("expressions"=80000)
+```
+
+```{r packages, warning=FALSE}
+library(e1071)
+library(dplyr)
+library(ggplot2)
+library(ggthemes)
+library(Rfast)
+library(bestNormalize)
+library(rlist) #list.append
+```
